@@ -1,0 +1,199 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --acent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --background-foter: #2F303A;
+    --background-main:#F5F4FA;
+}
+.body {
+    background: #E5E5E5;
+    font-family: 'Roboto';
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+/* header */
+
+.header {
+    color: var(--primary-white-color);  
+}
+ /* Логотип сайта header */
+.footer-logoweb,
+.header-logoweb {
+    color: var(--acent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+}
+.footer-logo,
+.header-logo {
+    color: var(--primary-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.header-text {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-list .header-text.current {
+    color: var(--acent-color);
+}
+.header-address {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.header-text:hover,
+.header-text:focus,
+.header-address:hover,
+.header-address:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--acent-color);
+}
+ /* Section hero */
+
+ .hero {
+     background-color:var(--background-foter) ;
+ }
+ .hero-caption{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--primary-white-color);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    }
+ 
+ .hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background-color: var(--acent-color);
+ }
+ .hero-btn:hover,
+ .hero-btn:focus {
+    color: black;
+    background-color: #F5F4FA;
+     
+ }
+ /* Section content */
+ .content-text-top {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+ }
+.content-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    }
+ /* Section work */
+ .work-text, 
+ .users-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+ }
+  /* Section users */
+  .users {
+      background-color: var(--background-main)
+  }
+  .users-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+  }
+  .users-lead {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+  }
+  .users-item {
+      background-color: var(--primary-white-color);
+  }
+   /* footer */
+.footer {
+    background-color: var(--background-foter);
+}
+ /* Логотип сайта header */
+
+.footer-logo {
+    color: var(--primary-white-color);
+}
+.footer-adress{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+/* ------------PORTFOLIO-------- */
+
+.about-btn {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--background-main);
+}
+.about-btn:hover,
+.about-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--acent-color);
+}
+.gallery-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.gallery-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
