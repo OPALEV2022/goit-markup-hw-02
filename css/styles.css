@@ -6,9 +6,8 @@
     --background-foter: #2F303A;
     --background-main:#F5F4FA;
 }
-.body {
+body {
     font-family: 'Roboto';
-    background: #E5E5E5;
     color: var(--primary-text-color);
 }
 
